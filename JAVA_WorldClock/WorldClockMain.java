@@ -67,12 +67,6 @@ class WorldClockMain
 			l.setText("Welcome to Australia. Time is: "+ t);
 		}
 
-		/*else if((x>= 100 && x <=330) && (y<=342 && y >= 205)) //canada
-		{
-			ZoneId z = ZoneId.of("Canada/Central");
-			LocalTime t = LocalTime.now(z);
-			l.setText("Welcome to Canada. Time is: "+ t);
-		}*/
 		else if((x>= 800 && x <=900) && (y<=420 && y >= 370))   //china
 		{
 			ZoneId z = ZoneId.of("Asia/Shanghai");
